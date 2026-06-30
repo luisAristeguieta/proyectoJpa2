@@ -51,7 +51,7 @@ public class ProyectoService {
 				.orElseThrow(() -> new RuntimeException("Proyecto con ID " + id + " no existe"));
 	}
 
-	public Proyecto actualizarProyecto(int id, Proyecto proyecto) {
+	public Proyecto actualizar(int id, Proyecto proyecto) {
 
 		Proyecto proyectoExistente = buscarPorId(id);
 
