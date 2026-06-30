@@ -36,7 +36,9 @@ public class Tarea {
 	private Proyecto proyecto;
 
 	@ManyToMany
-	@JoinTable(name = "tarea_empleados", joinColumns = @JoinColumn(name = "tarea_id"), inverseJoinColumns = @JoinColumn(name = "empleado_id"))
+	@JoinTable(name = "tarea_empleados", 
+				joinColumns = @JoinColumn(name = "tarea_id"), 
+				inverseJoinColumns = @JoinColumn(name = "empleado_id"))
 	private List<Empleado> empleados;
 
 	public Tarea() {
