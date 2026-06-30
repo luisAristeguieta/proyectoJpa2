@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 import com.krakedev.proyectos2.entity.Empleado;
 import com.krakedev.proyectos2.entity.Proyecto;
 import com.krakedev.proyectos2.entity.Tarea;
-import com.krakedev.proyectos2repositories.EmpleadoRepository;
-import com.krakedev.proyectos2repositories.ProyectoRepository;
-import com.krakedev.proyectos2repositories.TareaRepository;
+import com.krakedev.proyectos2.repositories.EmpleadoRepository;
+import com.krakedev.proyectos2.repositories.ProyectoRepository;
+import com.krakedev.proyectos2.repositories.TareaRepository;
 
 @Service
 public class TareaService {

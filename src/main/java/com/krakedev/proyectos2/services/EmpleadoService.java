@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.krakedev.proyectos2.entity.Empleado;
-import com.krakedev.proyectos2repositories.EmpleadoRepository;
+import com.krakedev.proyectos2.repositories.EmpleadoRepository;
 
 @Service
 public class EmpleadoService {

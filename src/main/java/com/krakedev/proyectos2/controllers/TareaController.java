@@ -17,7 +17,7 @@ import com.krakedev.proyectos2.entity.Tarea;
 import com.krakedev.proyectos2.services.TareaService;
 
 @RestController
-@RequestMapping("/tareas")
+@RequestMapping("/api/tareas")
 public class TareaController {
 
     private final TareaService servicio;

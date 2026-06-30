@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.krakedev.proyectos2.entity.Proyecto;
-import com.krakedev.proyectos2repositories.ProyectoRepository;
+import com.krakedev.proyectos2.repositories.ProyectoRepository;
 
 @Service
 public class ProyectoService {
